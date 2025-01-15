@@ -1,0 +1,44 @@
+{
+  "type": "create:mechanical_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mofus_better_end_"
+    }
+  ],
+  "pattern": [
+  	"BGGCR",
+    " GGWR",
+    " SSSR",
+    "MLLLL"
+  ],
+  "key": {
+    "B": {
+      "item": "mofus_better_end_:grass_hopper_suit_blueprint"
+    },
+    "S": {
+      "item": "mofus_better_end_:titaniumblock"
+    },
+    "G": {
+      "item": "mofus_better_end_:reinforced_glass"
+    },
+    "C": {
+      "item": "mofus_better_end_:titanium_chest"
+    },
+    "R": {
+      "item": "mofus_better_end_:reinforced_titanium_ingot"
+    },
+    "L": {
+      "item": "mofus_better_end_:grass_hopper_suit_thruster"
+    },
+    "W": {
+      "item": "mofus_better_end_:luminion_golem_block"
+    },
+    "M": {
+      "item": "mofus_better_end_:mech_creation_station"
+    }
+  },
+  "result": {
+    "item": "mofus_better_end_:gh_suit_item"
+  }
+}

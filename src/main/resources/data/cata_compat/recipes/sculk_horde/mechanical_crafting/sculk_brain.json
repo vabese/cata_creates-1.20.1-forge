@@ -1,0 +1,58 @@
+{
+  "type": "create:mechanical_crafting",
+  "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "sculkhorde"
+      }
+  ],
+  "pattern": [
+    "   G  ",
+  	" CRRC ",
+  	"SROBXR",
+    " HRIKC",
+    "   LC ",
+    "   D  "
+  ],
+  "key": {
+    "C": {
+      "item": "sculkhorde:calcite_clump"
+    },
+    "R": {
+      "item": "sculkhorde:sculk_resin"
+    },
+    "S": {
+      "item": "minecraft:calibrated_sculk_sensor"
+    },
+    "O": {
+      "item": "sculkhorde:crying_souls"
+    },
+    "B": {
+      "item": "minecraft:brain_coral_block"
+    },
+    "X": {
+      "item": "scguns:nether_star_fragment"
+    },
+    "H": {
+      "item": "minecraft:sculk_shrieker"
+    },
+    "I": {
+      "item": "vampirism:blood_infused_iron_block"
+    },
+    "K": {
+      "item": "minecraft:sculk_catalyst"
+    },
+    "L": {
+      "item": "minecraft:sculk"
+    },
+    "G": {
+      "item": "mofus_better_end_:blood_jug"
+    },
+    "D": {
+      "item": "mofus_better_end_:litchsstinger"
+    }
+  },
+  "result": {
+    "item": "sculkhorde:chunk_o_brain"
+  }
+}

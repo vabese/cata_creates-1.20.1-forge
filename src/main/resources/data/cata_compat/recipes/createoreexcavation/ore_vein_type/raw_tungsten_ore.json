@@ -1,0 +1,22 @@
+{
+  "type": "createoreexcavation:vein",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "northstar"
+    }
+  ],
+  "amountMax": 30.0,
+  "amountMin": 10.0,
+  "biomeWhitelist": "cata_create:is_mercury",
+  "icon": {
+    "item": "northstar:raw_tungsten_ore"
+  },
+  "name": "{\"translate\":\"item.northstar.raw_tungsten_ore\"}",
+  "placement": {
+    "salt": 881578435,
+    "separation": 8,
+    "spacing": 128
+  },
+  "priority": 0
+}

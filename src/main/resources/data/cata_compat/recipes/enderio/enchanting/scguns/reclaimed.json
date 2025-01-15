@@ -1,0 +1,17 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "scguns"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "scguns:reclaimed",
+  "input": {
+    "count": 12,
+    "ingredient": {
+      "item": "minecraft:phantom_membrane"
+    }
+  }
+}

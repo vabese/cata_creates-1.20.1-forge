@@ -1,0 +1,19 @@
+{
+  "type": "create_dd:sanding",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "northstar"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "results": [
+    {
+      "item": "northstar:polished_diamond"
+    }
+  ]
+}

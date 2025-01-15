@@ -1,0 +1,17 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "scguns"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "scguns:heavy_shot",
+  "input": {
+    "count": 4,
+    "ingredient": {
+      "item": "scguns:heavy_gun_parts"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "create:milling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "northstar"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "northstar:mercury_shelf_fungus_block"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "northstar:mercury_shelf_fungus",
+      "count": 6
+    },
+    {
+      "item": "northstar:mercury_shelf_fungus",
+      "count": 6,
+      "chance": 0.5
+    }
+  ]
+}

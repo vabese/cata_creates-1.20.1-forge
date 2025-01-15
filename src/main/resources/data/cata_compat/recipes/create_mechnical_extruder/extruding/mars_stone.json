@@ -1,0 +1,28 @@
+{
+  "type": "create_mechanical_extruder:extruding",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "northstar"
+    }
+  ],
+  "catalyst": {
+    "item": "northstar:mars_deep_stone"
+  },
+  "ingredients": [
+    {
+      "amount": 1000,
+      "fluid": "minecraft:lava",
+      "nbt": {}
+    },
+    {
+      "amount": 1000,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "requiredBonks":2,
+  "result": {
+    "item": "northstar:mars_stone"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "butcher"
+    }
+  ],
+  "pattern": [  	
+  	"IMI",
+  	"CNC",
+  	"SGS"
+  ],
+  "key": {
+  	"I": {
+  		"tag": "minecraft:planks"
+  	},
+  	"N": {
+  		"tag": "minecraft:buttons"
+  	},
+  	"G": {
+  		"tag": "forge:gravel"
+  	},
+  	"M": {
+  		"item": "minecraft:mud"
+  	},
+  	"C": {
+  		"item": "minecraft:clay"
+  	},
+  	"S": {
+  		"tag": "minecraft:sand"
+  	}
+  },
+  "result": {
+    "item": "butcher:unfiredpliermould",
+    "count": 9
+  }
+}

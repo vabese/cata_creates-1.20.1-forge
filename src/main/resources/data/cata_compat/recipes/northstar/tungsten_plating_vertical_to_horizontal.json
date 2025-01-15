@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "northstar"
+      }
+    ],
+    "ingredients": [
+        {
+            "item": "northstar:tungsten_plating_vertical_slab"
+        },
+        {
+            "item": "framedblocks:framed_wrench"
+        }
+    ],
+    "result": {
+        "item": "northstar:tungsten_plating_slab",
+        "count": 1
+    }
+}

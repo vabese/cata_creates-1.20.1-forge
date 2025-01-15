@@ -1,0 +1,21 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "scguns"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tfmg"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "scguns:lightweight",
+  "input": {
+    "count": 64,
+    "ingredient": {
+      "item": "tfmg:aluminum_frame"
+    }
+  }
+}

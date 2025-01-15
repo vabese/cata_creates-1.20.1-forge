@@ -1,0 +1,16 @@
+{
+	"type":"createaddition:rolling",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "tfmg"
+      }
+    ],
+	"input": {
+      	"item": "tfmg:synthetic_string"
+	},
+	"result": {
+		"item": "minecraft:string",
+		"count": 1
+	}
+}

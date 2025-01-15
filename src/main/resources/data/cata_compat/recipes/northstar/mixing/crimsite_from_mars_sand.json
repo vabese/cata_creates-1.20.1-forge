@@ -1,0 +1,44 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "northstar"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "northstar:mars_sand"
+    },
+    {
+      "item": "northstar:mars_sand"
+    },
+    {
+      "item": "northstar:mars_sand"
+    },
+    {
+      "item": "northstar:mars_sand"
+    },
+    {
+      "item": "northstar:mars_sand"
+    },
+    {
+      "item": "northstar:mars_sand"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "amount": 50,
+      "fluid": "minecraft:lava",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "create:crimsite",
+      "count": 6
+    }
+  ]
+}

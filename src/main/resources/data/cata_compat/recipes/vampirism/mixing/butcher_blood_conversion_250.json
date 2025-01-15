@@ -1,0 +1,33 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vampirism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "butcher"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "vampirism:vampire_fang"
+    },
+    {
+      "amount": 250,
+      "fluid": "butcher:blood_liquid",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "fluid": "vampirism:blood"
+    },
+    {
+      "count": 1,
+      "item": "vampirism:vampire_fang"
+    }
+  ]
+}

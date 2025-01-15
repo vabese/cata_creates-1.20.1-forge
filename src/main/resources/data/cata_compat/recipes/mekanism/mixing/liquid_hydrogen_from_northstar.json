@@ -1,0 +1,34 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "northstar"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "mekanism:steel_casing"
+    },
+    {
+      "amount": 250,
+      "fluid": "northstar:liquid_hydrogen",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "item": "mekanism:steel_casing"
+    },
+    {
+      "amount": 250,
+      "fluid": "mekanism:hydrogen",
+      "nbt": {}
+    }
+  ]
+}

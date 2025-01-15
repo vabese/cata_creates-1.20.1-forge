@@ -1,0 +1,29 @@
+{
+  "type": "scguns:mechanical_pressing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create_connected"
+    }
+  ],
+  "processingTime": 400,
+  "ingredients": [
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "minecraft:charcoal"
+    },
+    {
+      "item": "create_connected:six_way_gearbox"
+    }
+
+  ],
+  "mold": {
+    "item": "scguns:disc_mold"
+  },
+  "result": {
+    "item": "create_connected:music_disc_interlude",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "deeperdarker"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "deeperdarker:catalysis",
+  "input": {
+    "count": 3,
+    "ingredient": {
+      "item": "deeperdarker:soul_crystal"
+    }
+  }
+}

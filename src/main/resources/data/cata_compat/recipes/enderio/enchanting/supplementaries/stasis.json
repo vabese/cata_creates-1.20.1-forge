@@ -1,0 +1,17 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "supplementaries"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "supplementaries:stasis",
+  "input": {
+    "count": 1,
+    "ingredient": {
+      "item": "minecraft:shulker_shell"
+    }
+  }
+}

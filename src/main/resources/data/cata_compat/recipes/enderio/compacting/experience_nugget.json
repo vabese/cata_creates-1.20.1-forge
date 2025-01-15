@@ -1,0 +1,21 @@
+{
+  "type": "create:compacting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enderio"
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 90,
+      "fluid": "enderio:xp_juice",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "create:experience_nugget"
+    }
+  ]
+}

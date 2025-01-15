@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "northstar"
+    }
+  ],
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "northstar:volcanic_ash"
+    },
+    {
+      "item": "northstar:volcanic_ash"
+    },
+    {
+      "item": "northstar:volcanic_ash"
+    },
+    {
+      "item": "northstar:volcanic_ash"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "item": "northstar:volcanic_rock"
+    }
+  ]
+}

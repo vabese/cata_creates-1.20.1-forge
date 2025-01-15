@@ -1,0 +1,17 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "northstar"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "northstar:frostbite",
+  "input": {
+    "count": 16,
+    "ingredient": {
+      "item": "minecraft:blue_ice"
+    }
+  }
+}

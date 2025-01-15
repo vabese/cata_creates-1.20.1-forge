@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bigreactors"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "mekanism:block_raw_uranium"
+    }
+  ],
+  "result": {
+    "item": "bigreactors:raw_yellorium_block",
+    "count": 1
+  }
+}

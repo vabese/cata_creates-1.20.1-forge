@@ -1,0 +1,17 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "scguns"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "scguns:elemental_pop",
+  "input": {
+    "count": 10,
+    "ingredient": {
+      "item": "minecraft:brewing_stand"
+    }
+  }
+}

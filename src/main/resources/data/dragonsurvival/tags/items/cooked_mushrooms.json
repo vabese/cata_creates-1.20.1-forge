@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"mofus_better_end_:cooked_pink_poisons_shroom_slice",  "required":false},
+    {"id":"mofus_better_end_:cooked_red_tooth_mushroom_slice",  "required":false},
+    {"id":"mofus_better_end_:blue_cheese",  "required":false}
+  ]
+}

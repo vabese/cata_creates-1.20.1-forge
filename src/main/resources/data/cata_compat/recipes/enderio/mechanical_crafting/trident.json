@@ -1,0 +1,34 @@
+{
+  "type": "create:mechanical_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enderio"
+    }
+  ],
+  "pattern": [
+    "SSS",
+    "BHB",
+    " C ",
+    " C ",
+    " C ",
+    " C "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:oxidized_copper"
+    },
+    "S": {
+      "item": "minecraft:iron_sword"
+    },
+    "H": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "B": {
+      "item": "enderio:conduit_binder"
+    }
+  },
+  "result": {
+    "item": "minecraft:trident"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "create:milling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "northstar"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+          "type": "forge:mod_loaded",
+          "modid": "mekanism"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "northstar:tower_fungus"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "tag": "minecraft:lapis_lazuli",
+      "count": 1,
+      "chance": 0.5
+    }
+  ]
+}

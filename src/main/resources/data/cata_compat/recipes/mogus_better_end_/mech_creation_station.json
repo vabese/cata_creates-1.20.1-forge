@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mofus_better_end_"
+    }
+  ],
+  "pattern": [
+    "ARA",
+    "ADA",
+    "CMC"
+  ],
+  "key": {
+    "A": {
+      "item": "mofus_better_end_:mech_station_arm"
+    },
+    "R": {
+      "item": "mofus_better_end_:reinforced_titanium_ingot"
+    },
+    "C": {
+      "item": "createaddition:copper_spool"
+    },
+    "M": {
+      "item": "mofus_better_end_:mech_creation_station"
+    },
+    "D": {
+      "item": "draconicevolution:awakened_core"
+    }
+  },
+  "result": {
+    "item": "mofus_better_end_:mech_creation_station",
+    "count": 2
+  }
+}

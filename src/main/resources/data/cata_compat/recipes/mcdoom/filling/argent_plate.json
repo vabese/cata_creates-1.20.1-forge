@@ -1,0 +1,28 @@
+{
+  "type": "create:filling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "createbigcannons"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "doom"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "doom:argent_energy"
+    },
+    {
+      "amount": 180,
+      "fluid": "createbigcannons:molten_nethersteel",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "doom:argent_plate"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enderio"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "create:experience_block"
+    }
+  ],
+  "results": [
+    {
+      "amount": 810,
+      "fluid": "enderio:xp_juice"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "createoreexcavation:vein",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "amountMax": 8.0,
+  "amountMin": 1.0,
+  "biomeWhitelist": "minecraft:is_overworld",
+  "icon": {
+    "item": "mekanism:fluorite_gem"
+  },
+  "name": "{\"translate\":\"item.mekanism.fluorite_gem\"}",
+  "placement": {
+    "salt": 351894485,
+    "separation": 8,
+    "spacing": 128
+  },
+  "priority": 0
+}

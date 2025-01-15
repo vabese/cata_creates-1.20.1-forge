@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"mekanism:ethene",  "required":false},
+    {"id":"northstar:methane",  "required":false}
+  ]
+}

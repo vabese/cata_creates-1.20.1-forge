@@ -1,0 +1,17 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "create:potato_recovery",
+  "input": {
+    "count": 12,
+    "ingredient": {
+      "item": "minecraft:poisonous_potato"
+    }
+  }
+}

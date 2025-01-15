@@ -1,0 +1,25 @@
+{
+  "type": "create:crushing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "dragonsurvival"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "dragonsurvival:treasure_gold"
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "chance": 0.3,
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "chance": 0.3,
+      "item": "dragonsurvival:elder_dragon_dust"
+    }
+  ]
+}

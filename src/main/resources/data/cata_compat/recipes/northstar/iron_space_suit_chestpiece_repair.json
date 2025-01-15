@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "northstar"
+      }
+  ],
+  "pattern": [
+    "SCS",
+    "WPW",
+    "SWS"
+  ],
+  "key": {
+    "S": {
+      "item": "createaddition:iron_wire"
+    },
+    "W": {
+      "item": "minecraft:string"
+    },
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "P": {
+      "item": "northstar:broken_iron_space_suit_chestpiece"
+    }
+  },
+  "result": {
+    "item": "northstar:iron_space_suit_chestpiece",
+    "count": 1
+  }
+}

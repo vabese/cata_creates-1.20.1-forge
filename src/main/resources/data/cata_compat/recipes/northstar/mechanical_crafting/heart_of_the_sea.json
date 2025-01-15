@@ -1,0 +1,45 @@
+{
+  "type": "create:mechanical_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "northstar"
+    }
+  ],
+  "pattern": [
+  	"  O  ",
+  	" WMW ",
+    "SPNPL",
+    " WMW ",
+    "  F  "
+  ],
+  "key": {
+    "P": {
+      "item": "northstar:polished_diamond"
+    },
+    "N": {
+      "item": "scguns:nether_star_fragment"
+    },
+    "M": {
+      "item": "northstar:polished_lunar_sapphire"
+    },
+    "W": {
+      "tag": "forge:potions"
+    },
+    "F": {
+      "item": "dragonsurvival:frozen_raw_fish"
+    },
+    "O": {
+      "item": "mna:mote_water"
+    },
+    "L": {
+      "item": "minecraft:lapis_block"
+    },
+    "S": {
+      "item": "minecraft:sea_lantern"
+    }
+  },
+  "result": {
+    "item": "minecraft:heart_of_the_sea"
+  }
+}

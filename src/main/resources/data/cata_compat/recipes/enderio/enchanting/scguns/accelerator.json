@@ -1,0 +1,17 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "scguns"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "scguns:accelerator",
+  "input": {
+    "count": 7,
+    "ingredient": {
+      "item": "scguns:nitro_powder"
+    }
+  }
+}

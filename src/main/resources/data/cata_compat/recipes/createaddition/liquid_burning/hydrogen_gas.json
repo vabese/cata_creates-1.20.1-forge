@@ -1,0 +1,14 @@
+{
+	"type":"createaddition:liquid_burning",
+	"input": {
+      	"fluidTag": "forge:hydrogen_gas",
+      	"amount": 1000
+	},
+	"burnTime": 600,
+	"conditions": [
+	    {
+	        "fluidTag": "forge:hydrogen_gas",
+	        "type": "createaddition:has_fluid_tag"
+	    }
+	]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "dragonsurvival"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "cata_compat:iron_nugget_adjacent"
+    },
+    {
+      "item": "dragonsurvival:elder_dragon_dust"
+    }
+  ],
+  "result": {
+    "item": "dragonsurvival:treasure_iron",
+    "count": 1
+  }
+}

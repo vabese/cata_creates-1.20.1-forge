@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "createaddition"
+      },
+      {
+        "type": "forge:mod_loaded",
+        "modid": "dragonsurvival"
+       }
+    ],
+    "ingredients": [
+        {
+            "item": "createaddition:electrum_nugget"
+        },
+        {
+            "item": "dragonsurvival:elder_dragon_dust"
+        }
+    ],
+    "result": {
+        "item": "dragonsurvival:treasure_gold",
+        "count": 1
+    }
+}

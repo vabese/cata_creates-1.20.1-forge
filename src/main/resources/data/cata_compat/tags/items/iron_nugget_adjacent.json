@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"minecraft:iron_nugget",  "required":false},
+    {"id":"createdeco:industrial_iron_nugget",  "required":false},
+    {"id":"mekanism:nugget_steel",  "required":false},
+    {"id":"samurai_dynasty:steel_nugget",  "required":false},
+    {"id":"createbigcannons:cast_iron_nugget",  "required":false},
+    {"id":"createdeco:iron_coin",  "required":false},
+    {"id":"createdeco:industrial_iron_coin",  "required":false}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mofus_better_end_"
+    }
+  ],
+  "pattern": [
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "tag": "forge:wires/copper"
+    }
+  },
+  "result": {
+    "item": "mofus_better_end_:copper_wire",
+    "count": 1
+  }
+}

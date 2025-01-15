@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "create_dd"
+      },
+      {
+        "type": "forge:mod_loaded",
+        "modid": "dragonsurvival"
+      }
+    ],
+    "ingredients": [
+        {
+            "item": "create_dd:seething_ablaze_rod"
+        },
+        {
+            "item": "dragonsurvival:elder_dragon_dust"
+        }
+    ],
+    "result": {
+        "item": "dragonsurvival:hot_dragon_rod",
+        "count": 8
+    }
+}

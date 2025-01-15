@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"butcher:chickenfoot",  "required":false},
+    {"id":"butcher:chickenbeak",  "required":false},
+    {"id":"butcher:brokenwishbone",  "required":false},
+    {"id":"butcher:wishbone",  "required":false},
+    {"id":"butcher:turtle_shell",  "required":false}
+  ]
+}

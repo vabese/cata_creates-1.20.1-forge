@@ -1,0 +1,49 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tfmg"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "supplementaries"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "dragonsurvival"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "scguns"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:ash"
+    },
+    {
+      "amount": 50,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "item": "tfmg:nitrate_dust",
+      "chance": 0.2
+    },
+    {
+      "count": 1,
+      "item": "scguns:phosphor_dust",
+      "chance": 0.02
+    },
+    {
+      "count": 1,
+      "item": "dragonsurvival:elder_dragon_dust",
+      "chance": 0.01
+    }
+  ]
+}

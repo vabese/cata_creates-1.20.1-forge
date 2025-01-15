@@ -1,0 +1,32 @@
+{
+  "type": "create:splashing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mofus_better_end_"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "mofus_better_end_:space_sludge"
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.1,
+      "item": "draconicevolution:draconium_nugget"
+    },
+    {
+      "chance": 0.5,
+      "item": "mofus_better_end_:space_sludge"
+    },
+    {
+      "chance": 0.075,
+      "item": "northstar:tungsten_nugget"
+    },
+    {
+      "chance": 0.0025,
+      "item": "mofus_better_end_:titanium_nugget"
+    }
+  ]
+}

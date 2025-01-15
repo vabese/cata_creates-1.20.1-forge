@@ -1,0 +1,17 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "deeperdarker"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "deeperdarker:sculk_smite",
+  "input": {
+    "count": 6,
+    "ingredient": {
+      "item": "deeperdarker:resonarium"
+    }
+  }
+}

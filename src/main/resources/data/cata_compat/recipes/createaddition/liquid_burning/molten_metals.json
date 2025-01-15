@@ -1,0 +1,14 @@
+{
+	"type":"createaddition:liquid_burning",
+	"input": {
+      	"fluidTag": "forge:molten_metals",
+      	"amount": 1000
+	},
+	"burnTime": 20000,
+	"conditions": [
+	    {
+	        "fluidTag": "forge:molten_metals",
+	        "type": "createaddition:has_fluid_tag"
+	    }
+	]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "createoreexcavation:vein",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mofus_better_end_"
+    }
+  ],
+  "amountMax": 0.8,
+  "amountMin": 0.5,
+  "biomeWhitelist": "cata_create:is_constellation",
+  "icon": {
+    "item": "mofus_better_end_:raw_titanium"
+  },
+  "name": "{\"translate\":\"block.mofus_better_end_.meteorite_titanium_ore\"}",
+  "placement": {
+    "salt": 404128538,
+    "separation": 128,
+    "spacing": 512
+  },
+  "priority": 0
+}

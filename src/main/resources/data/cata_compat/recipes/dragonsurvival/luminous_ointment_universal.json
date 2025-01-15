@@ -1,0 +1,24 @@
+{
+  "type": "crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "dragonsurvival"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:glow_ink_sac"
+    },
+    {
+      "tag": "cata_compat:luminous_plant"
+    }
+  ],
+  "result": {
+    "item": "dragonsurvival:luminous_ointment",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "createaddition"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "dragonsurvival"
+    }
+  ],
+  "pattern": [
+    "SC",
+    "SC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "createaddition:biomass_pellet"
+    }
+  },
+  "result": {
+    "item": "dragonsurvival:charged_coal",
+    "count": 2
+  }
+}

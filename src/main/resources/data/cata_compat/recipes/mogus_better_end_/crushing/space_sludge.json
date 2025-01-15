@@ -1,0 +1,29 @@
+{
+  "type": "create:crushing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mofus_better_end_"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "mofus_better_end_:meteorite"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "chance": 0.50,
+      "item": "mofus_better_end_:space_sludge"
+    },
+    {
+      "chance": 0.01,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.0025,
+      "item": "scguns:netherite_scrap_chunk"
+    }
+  ]
+}

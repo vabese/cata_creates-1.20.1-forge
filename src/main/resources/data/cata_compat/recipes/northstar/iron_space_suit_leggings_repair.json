@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "northstar"
+      }
+  ],
+  "pattern": [
+    "SWS",
+    "WPW",
+    "SWS"
+  ],
+  "key": {
+    "S": {
+      "item": "createaddition:iron_wire"
+    },
+    "W": {
+      "item": "minecraft:string"
+    },
+    "P": {
+      "item": "northstar:broken_iron_space_suit_leggings"
+    }
+  },
+  "result": {
+    "item": "northstar:iron_space_suit_leggings",
+    "count": 1
+  }
+}

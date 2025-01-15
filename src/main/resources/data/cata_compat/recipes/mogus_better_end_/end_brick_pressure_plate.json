@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mofus_better_end_"
+    }
+  ],
+  "pattern": [
+    "EE"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:end_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "mofus_better_end_:end_stone_bricks_pressure_plate",
+    "count": 1
+  }
+}

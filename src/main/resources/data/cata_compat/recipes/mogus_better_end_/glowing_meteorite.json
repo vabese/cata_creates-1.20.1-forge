@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mofus_better_end_"
+    }
+  ],
+  "pattern": [
+    "CRC",
+    "MNV",
+    "CRC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "R": {
+      "item": "northstar:volcanic_rock"
+    },
+    "N": {
+      "item": "mofus_better_end_:meteorite"
+    },
+    "M": {
+      "item": "northstar:moon_deep_glowstone_ore"
+    },
+    "V": {
+      "item": "northstar:venus_deep_glowstone_ore"
+    }
+  },
+  "result": {
+    "item": "mofus_better_end_:glowing_meteorite",
+    "count": 1
+  }
+}

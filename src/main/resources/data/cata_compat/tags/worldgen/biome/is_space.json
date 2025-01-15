@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#cata_compat:is_moon",
+    "#cata_compat:is_mars",
+    "#cata_compat:is_venus",
+    "#cata_compat:is_mercury"
+  ]
+}

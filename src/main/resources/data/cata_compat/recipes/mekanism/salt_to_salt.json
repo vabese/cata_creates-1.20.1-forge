@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "butcher"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "butcher:salt"
+    }
+  ],
+  "result": {
+    "item": "mekanism:salt",
+    "count": 1
+  }
+}

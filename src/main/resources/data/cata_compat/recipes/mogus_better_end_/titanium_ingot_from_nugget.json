@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mofus_better_end_"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "mofus_better_end_:titanium_nugget"
+    },
+    {
+      "item": "mofus_better_end_:titanium_nugget"
+    },
+    {
+      "item": "mofus_better_end_:titanium_nugget"
+    },
+    {
+      "item": "mofus_better_end_:titanium_nugget"
+    },
+    {
+      "item": "mofus_better_end_:titanium_nugget"
+    },
+    {
+      "item": "mofus_better_end_:titanium_nugget"
+    },
+    {
+      "item": "mofus_better_end_:titanium_nugget"
+    },
+    {
+      "item": "mofus_better_end_:titanium_nugget"
+    },
+    {
+      "item": "mofus_better_end_:titanium_nugget"
+    }
+  ],
+  "result": {
+    "item": "mofus_better_end_:titanium_ingot",
+    "count": 1
+  }
+}

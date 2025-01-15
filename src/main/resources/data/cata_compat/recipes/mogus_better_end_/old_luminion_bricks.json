@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mofus_better_end_"
+    }
+  ],
+  "pattern": [
+    "BNB",
+    "NBN",
+    "BNB"
+  ],
+  "key": {
+    "B": {
+      "item": "mofus_better_end_:raw_luminion_block"
+    },
+    "N": {
+      "item": "mofus_better_end_:titanium_nugget"
+    }
+  },
+  "result": {
+    "item": "mofus_better_end_:old_luminion_bricks",
+    "count": 5
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "createoreexcavation:vein",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "northstar"
+    }
+  ],
+  "amountMax": 40.0,
+  "amountMin": 15.0,
+  "biomeWhitelist": "cata_create:is_space",
+  "icon": {
+    "item": "northstar:raw_glowstone_ore"
+  },
+  "name": "{\"translate\":\"item.northstar.raw_glowstone_ore\"}",
+  "placement": {
+    "salt": 724445576,
+    "separation": 8,
+    "spacing": 128
+  },
+  "priority": 0
+}

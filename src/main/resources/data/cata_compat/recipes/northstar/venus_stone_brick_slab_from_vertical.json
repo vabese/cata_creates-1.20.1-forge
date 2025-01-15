@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "northstar"
+      }
+    ],
+    "ingredients": [
+        {
+            "item": "northstar:venus_stone_brick_slab_vertical"
+        },
+        {
+            "item": "framedblocks:framed_wrench"
+        }
+    ],
+    "result": {
+        "item": "northstar:venus_stone_brick_slab",
+        "count": 1
+    }
+}

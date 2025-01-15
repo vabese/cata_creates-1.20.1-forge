@@ -1,0 +1,29 @@
+{
+  "type": "create:crushing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "dragonsurvival"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cata_compat:netherite_nuggets"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "dragonsurvival:treasure_debris"
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "chance": 0.3,
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "chance": 0.3,
+      "item": "dragonsurvival:elder_dragon_dust"
+    }
+  ]
+}

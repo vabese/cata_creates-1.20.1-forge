@@ -1,0 +1,34 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "mekanism"
+      },
+      {
+        "type": "forge:mod_loaded",
+        "modid": "northstar"
+      }
+  ],
+  "ingredients": [
+    {
+      "fluid": "northstar:sulfuric_acid",
+      "amount": 100,
+      "nbt": {}
+    },
+    {
+      "item": "mekanism:dust_sulfur",
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "mekanism:sulfuric_acid"
+    },
+    {
+      "item": "mekanism:dust_sulfur",
+      "count": 1
+    }
+  ]
+}

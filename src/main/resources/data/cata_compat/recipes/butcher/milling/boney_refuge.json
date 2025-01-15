@@ -1,0 +1,31 @@
+{
+  "type": "create:milling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "butcher"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "cata_compat:boney_butcher_leftovers"
+    }
+  ],
+  "processingTime": 70,
+  "results": [
+    {
+      "count": 1,
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "chance": 0.45,
+      "count": 1,
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "chance": 0.15,
+      "count": 1,
+      "item": "minecraft:bone_meal"
+    }
+  ]
+}

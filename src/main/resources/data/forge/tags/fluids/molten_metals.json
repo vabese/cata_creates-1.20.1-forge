@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"createbigcannons:molten_cast_iron",  "required":false},
+    {"id":"createbigcannons:molten_bronze",  "required":false},
+    {"id":"createbigcannons:molten_steel",  "required":false},
+    {"id":"createbigcannons:molten_nethersteel",  "required":false},
+    {"id":"tfmg:molten_steel",  "required":false},
+    {"id":"tfmg:molten_slag",  "required":false}
+  ]
+}

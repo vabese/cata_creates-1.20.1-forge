@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mofus_better_end_"
+    }
+  ],
+  "pattern": [
+    "BNB",
+    " W ",
+    "BNB"
+  ],
+  "key": {
+    "B": {
+      "item": "mofus_better_end_:old_luminion_bricks"
+    },
+    "N": {
+      "tag": "minecraft:doors"
+    },
+    "W": {
+      "item": "mofus_better_end_:old_luminion_wires"
+    }
+  },
+  "result": {
+    "item": "mofus_better_end_:old_luminion_door",
+    "count": 5
+  }
+}

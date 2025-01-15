@@ -1,0 +1,48 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "northstar"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "northstar:moon_sand"
+    },
+    {
+      "item": "northstar:moon_sand"
+    },
+    {
+      "item": "northstar:moon_sand"
+    },
+    {
+      "item": "northstar:moon_sand"
+    },
+    {
+      "item": "northstar:moon_sand"
+    },
+    {
+      "item": "northstar:moon_sand"
+    },
+    {
+      "tag": "forge:dusts/sulfur"
+    },
+    {
+      "amount": 50,
+      "fluid": "minecraft:lava",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "create:asurine",
+      "count": 6
+    }
+  ]
+}

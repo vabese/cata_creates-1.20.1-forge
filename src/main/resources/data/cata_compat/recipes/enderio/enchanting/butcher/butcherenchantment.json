@@ -1,0 +1,17 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "butcher"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "butcher:butcherenchantment",
+  "input": {
+    "count": 64,
+    "ingredient": {
+      "item": "butcher:animalfat"
+    }
+  }
+}

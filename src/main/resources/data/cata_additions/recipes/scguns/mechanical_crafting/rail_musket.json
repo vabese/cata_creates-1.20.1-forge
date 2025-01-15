@@ -1,0 +1,34 @@
+{
+  "type": "create:mechanical_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "scguns"
+    }
+  ],
+  "acceptMirrored": true,
+  "key": {
+    "Q": {
+      "item": "scguns:gun_grip"
+    },
+    "C": {
+      "item": "scguns:energy_core"
+    },
+    "L": {
+      "item": "scguns:nether_star_fragment"
+    },
+    "R": {
+      "item": "scguns:gun_parts"
+    },
+    "S": {
+      "item": "scguns:stone_gun_barrel"
+    }
+  },
+  "pattern": [
+    "LRSS ",
+    "Q C  "
+  ],
+  "result": {
+    "item": "cata_create:rail_musket"
+  }
+}

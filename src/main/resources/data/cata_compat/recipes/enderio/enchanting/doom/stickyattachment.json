@@ -1,0 +1,17 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "doom"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "doom:stickyattachment",
+  "input": {
+    "count": 20,
+    "ingredient": {
+      "item": "dragonsurvival:explosive_copper"
+    }
+  }
+}

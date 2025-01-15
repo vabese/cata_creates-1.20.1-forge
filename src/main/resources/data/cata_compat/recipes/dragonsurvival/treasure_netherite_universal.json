@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "dragonsurvival"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "cata_compat:netherite_nuggets"
+    },
+    {
+      "item": "dragonsurvival:elder_dragon_dust"
+    }
+  ],
+  "result": {
+    "item": "dragonsurvival:treasure_debris",
+    "count": 1
+  }
+}

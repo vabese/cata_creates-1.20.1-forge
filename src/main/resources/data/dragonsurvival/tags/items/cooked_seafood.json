@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"butcher:calamari",  "required":false},
+    {"id":"butcher:codfillet",  "required":false},
+    {"id":"butcher:cookedsalmon",  "required":false},
+    {"id":"butcher:elder_meat",  "required":false},
+    {"id":"mofus_better_end_:cooked_meteor_crab_meat",  "required":false},
+    {"id":"mofus_better_end_:smoked_sun_glider_bacon",  "required":false},
+    {"id":"mofus_better_end_:sunnysideup_axe_egg",  "required":false}
+  ]
+}

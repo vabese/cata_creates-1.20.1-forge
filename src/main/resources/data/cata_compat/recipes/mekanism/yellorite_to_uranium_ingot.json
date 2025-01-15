@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bigreactors"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "bigreactors:yellorium_ingot"
+    }
+  ],
+  "result": {
+    "item": "mekanism:ingot_uranium",
+    "count": 1
+  }
+}

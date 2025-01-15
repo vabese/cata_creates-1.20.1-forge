@@ -1,0 +1,29 @@
+{
+  "type": "create:crushing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "northstar"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "northstar:mercury_stone"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "northstar:tungsten_nugget",
+      "chance": 0.01
+    },
+    {
+      "chance": 0.05,
+      "item": "minecraft:gravel"
+    },
+    {
+      "chance": 0.01,
+      "item": "morthstar:mercury_shelf_fungus"
+    }
+  ]
+}

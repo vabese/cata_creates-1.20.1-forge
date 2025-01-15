@@ -1,0 +1,17 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "doom"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "doom:microwaveattachment",
+  "input": {
+    "count": 10,
+    "ingredient": {
+      "item": "minecraft:soul_campfire"
+    }
+  }
+}

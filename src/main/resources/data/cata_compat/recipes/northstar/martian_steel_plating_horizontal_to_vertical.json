@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "northstar"
+      }
+    ],
+    "ingredients": [
+        {
+            "item": "northstar:martian_steel_plating_slab"
+        },
+        {
+            "item": "framedblocks:framed_wrench"
+        }
+    ],
+    "result": {
+        "item": "northstar:martian_steel_plating_vertical_slab",
+        "count": 1
+    }
+}

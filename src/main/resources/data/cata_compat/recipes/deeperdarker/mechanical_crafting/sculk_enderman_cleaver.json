@@ -1,0 +1,45 @@
+{
+  "type": "create:mechanical_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "sculkhorde"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "deeperdarker"
+    }
+  ],
+  "pattern": [
+  	" B ",
+  	" B ",
+  	"BRB",
+  	"BVB",
+  	"BAB",
+  	"SCS",
+  	" S "
+  ],
+  "key": {
+    "B": {
+      "item": "deeperdarker:sculk_bone"
+    },
+    "V": {
+      "item": "deeperdarker:ancient_vase"
+    },
+    "A": {
+      "item": "deeperdarker:crystallized_amber"
+    },
+    "S": {
+      "item": "deeperdarker:soul_dust"
+    },
+    "C": {
+      "item": "deeperdarker:soul_crystal"
+    },
+    "R": {
+      "item": "deeperdarker:reinforced_echo_shard"
+    }
+  },
+  "result": {
+    "item": "sculkhorde:sculk_enderman_cleaver"
+  }
+}

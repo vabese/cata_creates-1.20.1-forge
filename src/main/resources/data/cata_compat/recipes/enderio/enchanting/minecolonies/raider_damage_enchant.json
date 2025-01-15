@@ -1,0 +1,17 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "minecolonies"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "minecolonies:raider_damage_enchant",
+  "input": {
+    "count": 32,
+    "ingredient": {
+      "item": "minecolonies:nether_pepper"
+    }
+  }
+}

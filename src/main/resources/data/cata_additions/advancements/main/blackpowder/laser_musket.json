@@ -1,0 +1,38 @@
+{
+  "parent": "scguns:main/blackpowder/laser_musket",
+  "criteria": {
+    "rail_musket": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cata_create:rail_musket"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "cata_create.advancement.rail_musket.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "cata_create:rail_musket"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "cata_create.advancement.rail_musket"
+    }
+  },
+  "requirements": [
+    [
+      "rail_musket"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

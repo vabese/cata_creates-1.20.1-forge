@@ -1,0 +1,28 @@
+{
+  "type": "scguns:gun_bench",
+  "result": {
+    "item": "cata_create:rail_musket",
+    "count": 1
+  },
+  "ingredients": {
+
+    "gun_internal_1": {
+      "item": "scguns:nether_star_fragment"
+    },
+    "gun_internal_2": {
+      "item": "scguns:gun_parts"
+    },
+    "gun_barrel_2": {
+      "item": "scguns:stone_gun_barrel"
+    },
+    "gun_barrel_1": {
+      "item": "scguns:gun_barrel"
+    },
+    "gun_grip": {
+      "item": "scguns:gun_grip"
+    },
+    "gun_magazine": {
+      "item": "scguns:energy_core"
+    }
+  }
+}

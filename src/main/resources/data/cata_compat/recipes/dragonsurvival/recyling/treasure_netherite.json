@@ -1,0 +1,29 @@
+{
+  "type": "create:crushing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "dragonsurvival"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "scguns"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "dragonsurvival:treasure_debris"
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "chance": 0.3,
+      "item": "scguns:netherite_scrap_chunk"
+    },
+    {
+      "chance": 0.3,
+      "item": "dragonsurvival:elder_dragon_dust"
+    }
+  ]
+}

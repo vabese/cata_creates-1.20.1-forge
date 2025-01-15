@@ -1,0 +1,34 @@
+{
+  "type": "create:crushing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "dragonsurvival"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "dragonsurvival:weak_dragon_heart"
+    }
+  ],
+  "processingTime": 1000,
+  "results": [
+    {
+      "chance": 0.3,
+      "item": "dragonsurvival:heart_element"
+    },
+    {
+      "chance": 0.6,
+      "count": 2,
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "chance": 0.3,
+      "item": "dragonsurvival:charged_coal"
+    },
+    {
+      "chance": 0.6,
+      "item": "minecraft:lapis_lazuli"
+    }
+  ]
+}

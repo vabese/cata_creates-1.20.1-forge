@@ -1,0 +1,33 @@
+{
+  "type": "scguns:mechanical_pressing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "deeperdarker"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "sculkhorde"
+    }
+  ],
+  "processingTime": 400,
+  "ingredients": [
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "minecraft:charcoal"
+    },
+    {
+      "item": "deeperdarker:heart_of_the_deep"
+    }
+
+  ],
+  "mold": {
+    "item": "scguns:disc_mold"
+  },
+  "result": {
+    "item": "sculkhorde:deep_green_music_disc",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "create:capacity",
+  "input": {
+    "count": 6,
+    "ingredient": {
+      "item": "minecraft:copper_block"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "tools",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "butcher:unfiredcleavermold"
+  },
+  "result": "butcher:fired_cleaver_mold"
+}

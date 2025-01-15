@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "tag": "forge:ash"
+    },
+    {
+      "tag": "forge:ash"
+    },
+    {
+      "tag": "forge:ash"
+    },
+    {
+      "tag": "forge:ash"
+    },
+    {
+      "item": "butcher:animalfat"
+    }
+  ],
+  "result": {
+    "item": "supplementaries:soap",
+    "count": 6
+  },
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "soap"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "supplementaries"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "butcher"
+    }
+  ]
+}

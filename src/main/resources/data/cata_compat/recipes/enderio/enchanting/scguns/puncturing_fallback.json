@@ -1,0 +1,24 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "scguns"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "create"
+      }
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "scguns:puncturing",
+  "input": {
+    "count": 3,
+    "ingredient": {
+      "item": "scguns:penetrator"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "createoreexcavation:vein",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "northstar"
+    }
+  ],
+  "amountMax": 2.0,
+  "amountMin": 1.0,
+  "biomeWhitelist": "cata_create:is_venus",
+  "icon": {
+    "item": "northstar:sulfuric_acid_bucket"
+  },
+  "name": "{\"translate\":\"item.northstar.sulfuric_acid\"}",
+  "neverFinite": true,
+  "placement": {
+    "salt": 1996986635,
+    "separation": 8,
+    "spacing": 64
+  },
+  "priority": 0
+}

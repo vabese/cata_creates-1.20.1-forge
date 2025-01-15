@@ -1,0 +1,20 @@
+{
+  "type": "create:milling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mofus_better_end_"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:end_stone"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "mofus_better_end_:endsand"
+    }
+  ]
+}

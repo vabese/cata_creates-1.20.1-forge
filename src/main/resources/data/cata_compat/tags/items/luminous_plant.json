@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"northstar:glowing_venus_vines",  "required":false},
+    {"id":"northstar:glowing_mars_roots",  "required":false},
+    {"id":"deeperdarker:bloom_berries",  "required":false},
+    {"id":"minecraft:glow_berries",  "required":false},
+    {"id":"minecraft:torchflower",  "required":false}
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mofus_better_end_"
+    }
+  ],
+  "pattern": [
+    " RD",
+    "BVS",
+    "  W"
+  ],
+  "key": {
+    "R": {
+      "item": "create:crafting_blueprint"
+    },
+    "D": {
+      "item": "minecraft:blue_dye"
+    },
+    "B": {
+      "item": "mofus_better_end_:nautilus_sub_blueprint"
+    },
+    "V": {
+      "item": "mna:vellum"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "result": {
+    "item": "mofus_better_end_:nautilus_sub_blueprint",
+    "count": 2
+  }
+}

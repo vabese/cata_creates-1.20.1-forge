@@ -1,0 +1,17 @@
+{
+  "type": "farm_and_charm:drying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "butcher"
+    }
+  ],
+  "recipe_type": "MEAT",
+  "ingredient": {
+    "tag": "cata_compat:mob_head"
+  },
+  "result": {
+    "item": "minecraft:rotten_flesh",
+    "count": 1
+  }
+}

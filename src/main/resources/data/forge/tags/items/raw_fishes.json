@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"butcher:rawsalmon",  "required":false},
+    {"id":"butcher:rawcodfillet",  "required":false},
+    {"id":"butcher:raweldermeat",  "required":false},
+    {"id":"butcher:glowtentacle",  "required":false},
+    {"id":"butcher:tentacle",  "required":false},
+    {"id":"mofus_better_end_:meteor_crab_meat",  "required":false},
+    {"id":"mofus_better_end_:sun_glider_bacon",  "required":false},
+    {"id":"mofus_better_end_:unferttilized_axe_fish_egg",  "required":false}
+  ]
+}

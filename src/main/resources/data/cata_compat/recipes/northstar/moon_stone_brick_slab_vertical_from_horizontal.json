@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "northstar"
+      }
+    ],
+    "ingredients": [
+        {
+            "item": "northstar:moon_stone_brick_slab"
+        },
+        {
+            "item": "framedblocks:framed_wrench"
+        }
+    ],
+    "result": {
+        "item": "northstar:moon_stone_brick_slab_vertical",
+        "count": 1
+    }
+}

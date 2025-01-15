@@ -1,0 +1,24 @@
+{
+  "type": "create:splashing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mofus_better_end_"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "mofus_better_end_:raw_titanium"
+    }
+  ],
+  "results": [
+    {
+      "count": 9,
+      "item": "mofus_better_end_:titanium_nugget"
+    },
+    {
+      "chance": 0.75,
+      "item": "mofus_better_end_:titanium_nugget"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "draconicevolution"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "draconicevolution:reaper_enchantment",
+  "input": {
+    "count": 12,
+    "ingredient": {
+      "item": "minecraft:soul_sand"
+    }
+  }
+}

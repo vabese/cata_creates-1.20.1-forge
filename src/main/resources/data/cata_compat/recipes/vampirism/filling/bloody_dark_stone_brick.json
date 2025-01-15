@@ -1,0 +1,24 @@
+{
+  "type": "create:filling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vampirism"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "vampirism:dark_stone_bricks"
+    },
+    {
+      "amount": 100,
+      "fluid": "vampirism:blood",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "vampirism:bloody_dark_stone_bricks"
+    }
+  ]
+}

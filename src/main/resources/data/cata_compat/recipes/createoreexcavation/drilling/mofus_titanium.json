@@ -1,0 +1,39 @@
+{
+  "type": "createoreexcavation:drilling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mofus_better_end_"
+    }
+  ],
+  "drill": {
+    "item": "createoreexcavation:netherite_drill"
+  },
+  "fluid": {
+    "amount": 1000,
+    "fluid": "minecraft:lava",
+    "nbt": {}
+  },
+  "output": [
+    {
+      "chance": 0.2,
+      "item": "mofus_better_end_:meteorite_titanium_ore"
+    },
+    {
+      "chance": 0.4,
+      "item": "mofus_better_end_:raw_titanium"
+    },
+    {
+      "chance": 0.8,
+      "item": "mofus_better_end_:meteorite"
+    },
+    {
+      "chance": 0.5,
+      "item": "mofus_better_end_:titanium_nugget"
+    }
+  ],
+  "priority": 0,
+  "stress": 2048,
+  "ticks": 4000,
+  "vein_id": "cata_compat:createoreexcavation/ore_vein_type/mofus_titanium"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "scguns"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "tfmg"
+      }
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "scguns:trigger_finger",
+  "input": {
+    "count": 2,
+    "ingredient": {
+      "item": "scguns:rapid_firing_unit"
+    }
+  }
+}

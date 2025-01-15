@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mofus_better_end_"
+    }
+  ],
+  "pattern": [
+    "BNB",
+    "RWR",
+    "BNB"
+  ],
+  "key": {
+    "B": {
+      "item": "mofus_better_end_:old_luminion_bricks"
+    },
+    "N": {
+      "item": "create:propeller"
+    },
+    "W": {
+      "item": "mofus_better_end_:old_luminion_wires"
+    },
+    "R": {
+      "tag": "forge:gunpowder"
+    }
+  },
+  "result": {
+    "item": "mofus_better_end_:old_luminion_blower",
+    "count": 5
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "tfmg:casting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "createbigcannons"
+    }
+  ],
+  "ingredients": [
+    {
+      "fluid": "createbigcannons:molten_steel",
+      "amount": 1
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "count": 1,
+      "item": "tfmg:steel_ingot"
+    }
+  ,
+    {
+      "count": 1,
+      "item": "tfmg:steel_block"
+    }
+
+  ]
+}

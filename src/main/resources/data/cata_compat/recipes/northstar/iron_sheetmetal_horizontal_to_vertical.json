@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "northstar"
+      }
+    ],
+    "ingredients": [
+        {
+            "item": "northstar:iron_sheetmetal_slab"
+        },
+        {
+            "item": "framedblocks:framed_wrench"
+        }
+    ],
+    "result": {
+        "item": "northstar:iron_sheetmetal_vertical_slab",
+        "count": 1
+    }
+}

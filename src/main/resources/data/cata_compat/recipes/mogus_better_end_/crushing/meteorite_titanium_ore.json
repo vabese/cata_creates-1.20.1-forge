@@ -1,0 +1,32 @@
+{
+  "type": "create:crushing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mofus_better_end_"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "mofus_better_end_:meteorite_titanium_ore"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "mofus_better_end_:raw_titanium"
+    },
+    {
+      "chance": 0.75,
+      "item": "mofus_better_end_:raw_titanium"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "mofus_better_end_:meteorite"
+    }
+  ]
+}

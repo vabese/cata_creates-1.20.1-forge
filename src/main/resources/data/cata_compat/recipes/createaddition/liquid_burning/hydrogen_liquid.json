@@ -1,0 +1,15 @@
+{
+	"type":"createaddition:liquid_burning",
+	"input": {
+      	"fluidTag": "forge:liquid_hydrogen",
+      	"amount": 1000
+	},
+	"burnTime": 600,
+	"superheated": true,
+	"conditions": [
+	    {
+	        "fluidTag": "forge:liquid_hydrogen",
+	        "type": "createaddition:has_fluid_tag"
+	    }
+	]
+}

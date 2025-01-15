@@ -1,0 +1,30 @@
+{
+  "type": "create_mechanical_extruder:extruding",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "supplementaries"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enderio"
+    }
+  ],
+  "catalyst": {
+    "item": "minecraft:player_head"
+  },
+  "ingredients": [
+    {
+      "item": "supplementaries:bubble_block"
+    },
+    {
+      "amount": 1000,
+      "fluid": "enderio:xp_juice",
+      "nbt": {}
+    }
+  ],
+  "requiredBonks":16,
+  "result": {
+    "item": "minecraft:phantom_membrane"
+  }
+}

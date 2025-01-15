@@ -1,0 +1,32 @@
+{
+  "type": "create:crushing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "northstar"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "northstar:mars_gravel"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "northstar:mars_sand"
+    },
+    {
+      "chance": 0.05,
+      "item": "minecraft:flint"
+    },
+    {
+      "chance": 0.05,
+      "item": "minecraft:gravel"
+    },
+    {
+      "chance": 0.05,
+      "item": "minecraft:clay_ball"
+    }
+  ]
+}

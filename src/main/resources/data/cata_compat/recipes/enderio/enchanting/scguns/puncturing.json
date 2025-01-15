@@ -1,0 +1,21 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "scguns"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "scguns:puncturing",
+  "input": {
+    "count": 12,
+    "ingredient": {
+      "item": "create:powdered_obsidian"
+    }
+  }
+}

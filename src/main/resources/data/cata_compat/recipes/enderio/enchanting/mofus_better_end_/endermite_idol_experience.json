@@ -1,0 +1,17 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mofus_better_end_"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "mofus_better_end_:endermite_idol_experience",
+  "input": {
+    "count": 3,
+    "ingredient": {
+      "item": "mofus_better_end_:endermite_egg"
+    }
+  }
+}

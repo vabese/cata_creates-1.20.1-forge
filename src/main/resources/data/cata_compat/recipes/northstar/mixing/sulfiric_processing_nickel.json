@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "northstar"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:raw_materials/nickel"
+    },
+    {
+      "amount": 10,
+      "fluid": "northstar:sulfuric_acid",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "count": 2,
+      "item": "create:crushed_raw_nickel"
+    },
+    {
+      "count": 2,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "mofus_better_end_:endsand"
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.10,
+      "item": "enderio:powdered_ender_pearl"
+    },
+    {
+      "chance": 0.0175,
+      "item": "enderio:pulsating_alloy_nugget"
+    },
+    {
+      "chance": 0.0025,
+      "item": "minecraft:chorus_fruit"
+    }
+  ]
+}

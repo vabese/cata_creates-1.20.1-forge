@@ -1,0 +1,36 @@
+{
+  "type": "create:crushing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "dragonsurvival"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "createdeco"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+          "type": "forge:mod_loaded",
+          "modid": "scguns"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "dragonsurvival:treasure_debris"
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "chance": 0.3,
+      "item": "createdeco:netherite_nugget"
+    },
+    {
+      "chance": 0.3,
+      "item": "dragonsurvival:elder_dragon_dust"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mofus_better_end_"
+    }
+  ],
+  "pattern": [
+    "BNB",
+    "RWR",
+    "B B"
+  ],
+  "key": {
+    "B": {
+      "item": "mofus_better_end_:old_luminion_bricks"
+    },
+    "N": {
+      "item": "create:copper_valve_handle"
+    },
+    "W": {
+      "item": "mofus_better_end_:old_luminion_wires"
+    },
+    "R": {
+      "item": "create:fluid_pipe"
+    }
+  },
+  "result": {
+    "item": "mofus_better_end_:old_luminion_valve",
+    "count": 5
+  }
+}

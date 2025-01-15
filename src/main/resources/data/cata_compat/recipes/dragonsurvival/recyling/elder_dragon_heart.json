@@ -1,0 +1,34 @@
+{
+  "type": "create:crushing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "dragonsurvival"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "dragonsurvival:elder_dragon_heart"
+    }
+  ],
+  "processingTime": 2000,
+  "results": [
+    {
+      "chance": 0.3,
+      "item": "dragonsurvival:weak_dragon_heart"
+    },
+    {
+      "chance": 0.6,
+      "count": 2,
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "chance": 0.3,
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "chance": 0.3,
+      "item": "minecraft:diamond"
+    }
+  ]
+}

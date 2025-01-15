@@ -1,0 +1,17 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "scguns"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "scguns:quick_hands",
+  "input": {
+    "count": 3,
+    "ingredient": {
+      "item": "scguns:fire_rate_turret_module"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "enderio:alloy_smelting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "scguns"
+    }
+  ],
+  "energy": 2000,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 9,
+      "ingredient": {
+        "item": "scguns:netherite_scrap_chunk"
+      }
+    }
+  ],
+  "result": {
+    "item": "minecraft:netherite_scrap"
+  }
+}

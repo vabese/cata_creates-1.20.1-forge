@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"mekanism:hydrogen",  "required":false},
+    {"id":"northstar:liquid_hydrogen",  "required":false}
+  ]
+}

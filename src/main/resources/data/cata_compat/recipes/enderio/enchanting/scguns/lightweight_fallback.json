@@ -1,0 +1,24 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "scguns"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "tfmg"
+      }
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "scguns:lightweight",
+  "input": {
+    "count": 32,
+    "ingredient": {
+      "item": "minecraft:feather"
+    }
+  }
+}

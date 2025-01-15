@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "butcher"
+    }
+  ],
+  "pattern": [  	
+  	" H",
+  	"S "
+  ],
+  "key": {
+  	"S": {
+  		"tag": "forge:rods"
+  	},
+  	"H": {
+  		"item": "butcher:skinningknifeblade"
+  	}
+  },
+  "result": {
+    "item": "butcher:skinning_knife"    
+  }
+}

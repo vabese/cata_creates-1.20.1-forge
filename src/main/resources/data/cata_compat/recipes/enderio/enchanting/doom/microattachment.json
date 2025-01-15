@@ -1,0 +1,17 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "doom"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "doom:microattachment",
+  "input": {
+    "count": 8,
+    "ingredient": {
+      "item": "doom:rocket"
+    }
+  }
+}

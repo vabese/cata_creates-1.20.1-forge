@@ -1,0 +1,28 @@
+{
+  "type": "create:filling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "butcher"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "createbigcannons"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "butcher:fired_cleaver_mold"
+    },
+    {
+      "amount": 90,
+      "fluid": "createbigcannons:molten_steel",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "butcher:ironcleaverblade"
+    }
+  ]
+}

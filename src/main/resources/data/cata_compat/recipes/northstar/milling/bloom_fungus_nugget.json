@@ -1,0 +1,22 @@
+{
+  "type": "create:milling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "northstar"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "northstar:bloom_fungus"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "create:copper_nugget",
+      "count": 1,
+      "chance": 0.5
+    }
+  ]
+}

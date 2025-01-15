@@ -1,0 +1,17 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vampirism"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "vampirism:crossbowfrugality",
+  "input": {
+    "count": 12,
+    "ingredient": {
+      "item": "vampirism:crossbow_arrow_normal"
+    }
+  }
+}

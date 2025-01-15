@@ -1,0 +1,35 @@
+{
+  "type": "create_mechanical_extruder:extruding",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mofus_better_end_"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tfmg"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "createaddition"
+    }
+  ],
+  "catalyst": {
+    "item": "mofus_better_end_:meteorite_bricks_floater"
+  },
+  "ingredients": [
+    {
+      "amount": 1000,
+      "fluid": "tfmg:molten_slag",
+      "nbt": {}
+    },
+    {
+      "amount": 1000,
+      "fluid": "createaddition:bioethanol",
+      "nbt": {}
+    }
+  ],
+  "result": {
+    "item": "mofus_better_end_:meteorite"
+  }
+}

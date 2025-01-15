@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mofus_better_end_"
+    }
+  ],
+  "pattern": [
+  	"BTTN",
+    "GGWN",
+    "GGWN",
+    "MTTN"
+  ],
+  "key": {
+    "B": {
+      "item": "mofus_better_end_:nautilus_sub_blueprint"
+    },
+    "T": {
+      "item": "mofus_better_end_:titanium_ingot"
+    },
+    "G": {
+      "tag": "forge:glass/colorless"
+    },
+    "N": {
+      "item": "mofus_better_end_:nautilus_thruster"
+    },
+    "W": {
+      "item": "mofus_better_end_:old_luminion_wires"
+    },
+    "M": {
+      "item": "mofus_better_end_:mech_creation_station"
+    }
+  },
+  "result": {
+    "item": "mofus_better_end_:nautilus_sub_item"
+  }
+}

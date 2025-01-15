@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:blasting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mofus_better_end_"
+    }
+  ],
+  "category": "blocks",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "mofus_better_end_:meteorite_titanium_ore"
+  },
+  "result": "mofus_better_end_:raw_titanium"
+}
+

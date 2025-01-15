@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"butcher:rawdragonmeat",  "required":false},
+    {"id":"butcher:humanflesh",  "required":false},
+    {"id":"butcher:humanmeat",  "required":false},
+    {"id":"vampirism:human_heart",  "required":false},
+    {"id":"vampirism:weak_human_heart",  "required":false},
+    {"id":"werewolves:liver",  "required":false}
+  ]
+}

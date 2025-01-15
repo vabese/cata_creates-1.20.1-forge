@@ -1,0 +1,50 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "northstar"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "northstar:venus_gravel"
+    },
+    {
+      "item": "northstar:venus_gravel"
+    },
+    {
+      "item": "northstar:venus_gravel"
+    },
+    {
+      "item": "northstar:venus_gravel"
+    },
+    {
+      "item": "northstar:venus_gravel"
+    },
+    {
+      "item": "northstar:venus_gravel"
+    },
+    {
+      "item": "northstar:venus_gravel"
+    },
+    {
+      "item": "northstar:venus_gravel"
+    },
+    {
+      "item": "minecraft:diorite"
+    },
+    {
+      "amount": 50,
+      "fluid": "minecraft:lava",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "create:ochrum",
+      "count": 9
+    }
+  ]
+}

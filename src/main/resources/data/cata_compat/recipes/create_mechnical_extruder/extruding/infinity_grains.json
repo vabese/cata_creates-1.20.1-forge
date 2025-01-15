@@ -1,0 +1,24 @@
+{
+  "type": "create_mechanical_extruder:extruding",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enderio"
+    }
+  ],
+  "catalyst": {
+    "item": "minecraft:bedrock"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:campfire"
+    },
+    {
+      "item": "minecraft:campfire"
+    }
+  ],
+  "requiredBonks":1,
+  "result": {
+    "item": "enderio:grains_of_infinity"
+  }
+}

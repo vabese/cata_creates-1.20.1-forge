@@ -1,0 +1,21 @@
+{
+  "type": "createoreexcavation:drilling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "drill": {
+    "tag": "createoreexcavation:drills"
+  },
+  "output": [
+    {
+      "item": "mekanism:fluorite_gem"
+    }
+  ],
+  "priority": 0,
+  "stress": 512,
+  "ticks": 400,
+  "vein_id": "cata_compat:createoreexcavation/ore_vein_type/fluorite_gem"
+}

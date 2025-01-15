@@ -1,0 +1,17 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "scguns"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "scguns:shell_catcher",
+  "input": {
+    "count": 3,
+    "ingredient": {
+      "item": "scguns:shell_catcher_turret_module"
+    }
+  }
+}

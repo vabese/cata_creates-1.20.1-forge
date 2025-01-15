@@ -1,0 +1,17 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "samurai_dynasty"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "samurai_dynasty:returning_blade",
+  "input": {
+    "count": 1,
+    "ingredient": {
+      "item": "minecraft:trident"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "create:crushing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "butcher"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "forge:skeletal"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "minecraft:bone",
+      "count": 4
+    },
+    {
+      "item": "minecraft:bone_meal",
+      "count": 6
+    },
+    {
+      "chance": 0.5,
+      "item": "minecraft:bone",
+      "count": 4
+    },
+    {
+      "chance": 0.5,
+      "item": "minecraft:bone_meal",
+      "count": 6
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "type": "create:mechanical_crafting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vampirism"
+    }
+  ],
+  "pattern": [
+    " CCWW",
+    "  EIW",
+    " ELEC",
+    "ERE C",
+    "GE   "
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:black_wool"
+    },
+    "C": {
+      "item": "minecraft:black_carpet"
+    },
+    "I": {
+      "item": "enderio:infinity_rod"
+    },
+    "L": {
+      "item": "scguns:lightning_rod_connector"
+    },
+    "R": {
+      "item": "minecraft:end_rod"
+    },
+    "G": {
+      "item": "scguns:vertical_grip"
+    },
+    "E": {
+      "item": "createaddition:electrum_sheet"
+    }
+  },
+  "result": {
+    "item": "vampirism:umbrella"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "create:milling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "northstar"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "northstar:venus_stone"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "northstar:venus_gravel"
+    }
+  ]
+}

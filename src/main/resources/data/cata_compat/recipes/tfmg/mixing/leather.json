@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "tfmg"
+      }
+  ],
+  "ingredients": [
+    {
+      "item": "tfmg:leather"
+    },
+    {
+      "amount": 100,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "count": 1,
+      "item": "minecraft:leather"
+    }
+  ]
+}

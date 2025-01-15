@@ -1,0 +1,45 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "scguns"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "scguns:netherite_scrap_chunk"
+    },
+    {
+      "item": "scguns:netherite_scrap_chunk"
+    },
+    {
+      "item": "scguns:netherite_scrap_chunk"
+    },
+    {
+      "item": "scguns:netherite_scrap_chunk"
+    },
+    {
+      "item": "scguns:netherite_scrap_chunk"
+    },
+    {
+      "item": "scguns:netherite_scrap_chunk"
+    },
+    {
+      "item": "scguns:netherite_scrap_chunk"
+    },
+    {
+      "item": "scguns:netherite_scrap_chunk"
+    },
+    {
+      "item": "scguns:netherite_scrap_chunk"
+    }
+  ],
+  "processingTime": 500,
+  "results": [
+    {
+      "item": "minecraft:netherite_scrap",
+      "count": 1
+    }
+  ]
+}
