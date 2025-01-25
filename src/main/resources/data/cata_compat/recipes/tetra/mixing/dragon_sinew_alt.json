@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "butcher"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tetra"
+    }
+  ],
+  "ingredients": [
+    {
+        "item": "butcher:rawdragonmeat"
+    },
+    {
+        "item": "butcher:sulfuricacid"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "item": "tetra:dragon_sinew"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ]
+}

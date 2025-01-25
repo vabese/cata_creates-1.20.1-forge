@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "butcher"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tfmg"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "tfmg:bottle_of_battery_acid"
+    }
+  ],
+  "result": {
+    "item": "butcher:sulfuricacid",
+    "count": 1
+  }
+}

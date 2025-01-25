@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"mekanism:sulfuric_acid",  "required":false},
+    {"id":"northstar:sulfuric_acid",  "required":false}
+  ]
+}

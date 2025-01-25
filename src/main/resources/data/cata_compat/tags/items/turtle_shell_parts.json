@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"butcher:turtle_shell_fragment",  "required":false},
+    "minecraft:scute"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "butcher"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tetra"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "butcher:rawdragonmeat"
+    },
+    {
+        "amount": 200,
+        "fluidTag": "cata_compat:liquid_acids",
+        "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "item": "tetra:dragon_sinew"
+    }
+  ]
+}
