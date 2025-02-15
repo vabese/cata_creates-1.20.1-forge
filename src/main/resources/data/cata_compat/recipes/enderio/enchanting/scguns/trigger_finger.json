@@ -4,18 +4,14 @@
     {
       "type": "forge:mod_loaded",
       "modid": "scguns"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "tfmg"
     }
   ],
   "cost_multiplier": 1,
   "enchantment": "scguns:trigger_finger",
   "input": {
-    "count": 3,
+    "count": 2,
     "ingredient": {
-      "item": "tfmg:lead_block"
+      "item": "scguns:rapid_firing_unit"
     }
   }
 }

@@ -1,0 +1,5 @@
+{
+  "id": "cata_additions:fishbowl_tardis",
+  "name_component": "{\"color\":\"aqua\",\"text\":\"Waterlogged Fishbowl\"}",
+  "structure": "cata_additions:desktop/fishbowl_tardis"
+}

@@ -3,5 +3,7 @@
   "values": [
     {"id":"createdeco:netherite_nugget",  "required":false},
     {"id":"scguns:netherite_scrap_chunk",  "required":false},
-    {"id":"createdeco:netherite_coin",  "required":false}
+    {"id":"createdeco:netherite_coin",  "required":false},
+    {"id":"tconstruct:netherite_nugget",  "required":false}
+  ]
 }

@@ -11,7 +11,7 @@
             "item": "northstar:martian_steel_plating_vertical_slab"
         },
         {
-            "item": "framedblocks:framed_wrench"
+            "tag": "forge:tools/wrench"
         }
     ],
     "result": {

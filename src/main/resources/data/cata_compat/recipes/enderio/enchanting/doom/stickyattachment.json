@@ -9,9 +9,9 @@
   "cost_multiplier": 1,
   "enchantment": "doom:stickyattachment",
   "input": {
-    "count": 20,
+    "count": 16,
     "ingredient": {
-      "item": "dragonsurvival:explosive_copper"
+      "item": "doom:doomed_grenade"
     }
   }
 }

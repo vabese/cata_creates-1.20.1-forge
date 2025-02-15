@@ -1,0 +1,17 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "estrogen"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "estrogen:uwufy_curse",
+  "input": {
+    "count": 1,
+    "ingredient": {
+      "item": "estrogen:gender_fluid_bucket"
+    }
+  }
+}

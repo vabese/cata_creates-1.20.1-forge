@@ -1,0 +1,17 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "trials"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "trials:density",
+  "input": {
+    "count": 1,
+    "ingredient": {
+      "item": "trials:heavy_core"
+    }
+  }
+}

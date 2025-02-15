@@ -1,0 +1,30 @@
+{
+  "type": "scguns:powered_mechanical_pressing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "trials"
+    }
+  ],
+  "processingTime": 200,
+  "energyUse": 500,
+  "ingredients": [
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "minecraft:charcoal"
+    },
+    {
+      "item": "trials:copper_trapdoor"
+    }
+
+  ],
+  "mold": {
+    "item": "scguns:disc_mold"
+  },
+  "result": {
+    "item": "trials:music_disc_creator_box",
+    "count": 1
+  }
+}

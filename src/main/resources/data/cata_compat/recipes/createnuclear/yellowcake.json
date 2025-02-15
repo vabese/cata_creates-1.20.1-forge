@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "mekanism"
+      },
+      {
+        "type": "forge:mod_loaded",
+        "modid": "createnuclear"
+      }
+    ],
+    "ingredients": [
+        {
+            "item": "mekanism:yellow_cake_uranium"
+        },
+        {
+            "item": "mekanism:yellow_cake_uranium"
+        },
+        {
+            "item": "mekanism:yellow_cake_uranium"
+        },
+        {
+            "item": "mekanism:yellow_cake_uranium"
+        },
+        {
+            "item": "mekanism:yellow_cake_uranium"
+        },
+        {
+            "item": "mekanism:yellow_cake_uranium"
+        },
+        {
+            "item": "mekanism:yellow_cake_uranium"
+        },
+        {
+            "item": "mekanism:yellow_cake_uranium"
+        }
+    ],
+    "result": {
+        "item": "createnuclear:yellowcake",
+        "count": 9
+    }
+}

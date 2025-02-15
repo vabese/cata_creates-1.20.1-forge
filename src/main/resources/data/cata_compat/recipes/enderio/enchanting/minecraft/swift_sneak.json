@@ -1,0 +1,11 @@
+{
+  "type": "enderio:enchanting",
+  "cost_multiplier": 1,
+  "enchantment": "minecraft:swift_sneak",
+  "input": {
+    "count": 7,
+    "ingredient": {
+      "item": "minecraft:echo_shard"
+    }
+  }
+}

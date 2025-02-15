@@ -9,9 +9,9 @@
   "cost_multiplier": 1,
   "enchantment": "minecolonies:raider_damage_enchant",
   "input": {
-    "count": 32,
+    "count": 3,
     "ingredient": {
-      "item": "minecolonies:nether_pepper"
+      "item": "minecolonies:ancienttome"
     }
   }
 }

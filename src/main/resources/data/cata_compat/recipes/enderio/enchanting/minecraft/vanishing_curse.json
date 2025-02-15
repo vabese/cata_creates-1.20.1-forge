@@ -1,0 +1,11 @@
+{
+  "type": "enderio:enchanting",
+  "cost_multiplier": 1,
+  "enchantment": "minecraft:vanishing_curse",
+  "input": {
+    "count": 64,
+    "ingredient": {
+      "tag": "minecraft:leaves"
+    }
+  }
+}

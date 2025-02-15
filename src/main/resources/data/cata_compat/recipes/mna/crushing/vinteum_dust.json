@@ -1,0 +1,28 @@
+{
+  "type": "create:crushing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mna"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "mna:vinteum_ore"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "mna:raw_vinteum"
+    },
+    {
+      "chance": 0.25,
+      "item": "mna:vinteum_dust"
+    },
+    {
+      "chance": 0.1,
+      "item": "mna:chimerite_gem"
+    }
+  ]
+}

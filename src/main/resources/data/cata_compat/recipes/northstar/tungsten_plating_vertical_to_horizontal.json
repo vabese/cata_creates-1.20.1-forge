@@ -11,7 +11,7 @@
             "item": "northstar:tungsten_plating_vertical_slab"
         },
         {
-            "item": "framedblocks:framed_wrench"
+            "tag": "forge:tools/wrench"
         }
     ],
     "result": {

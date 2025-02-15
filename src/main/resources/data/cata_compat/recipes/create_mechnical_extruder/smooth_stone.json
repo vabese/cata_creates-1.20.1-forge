@@ -1,0 +1,28 @@
+{
+  "type": "create_mechanical_extruder:extruding",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create_connected"
+    }
+  ],
+  "catalyst": {
+    "item": "create_connected:fan_blasting_catalyst"
+  },
+  "ingredients": [
+    {
+      "amount": 1000,
+      "fluid": "minecraft:lava",
+      "nbt": {}
+    },
+    {
+      "amount": 1000,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "requiredBonks":2,
+  "result": {
+    "item": "minecraft:smooth_stone"
+  }
+}

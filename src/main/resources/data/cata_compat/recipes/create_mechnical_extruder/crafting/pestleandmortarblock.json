@@ -1,0 +1,28 @@
+{
+  "type": "create_mechanical_extruder:extruding",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "butcher"
+    }
+  ],
+  "catalyst": {
+    "item": "minecraft:crafting_table"
+  },
+  "ingredients": [
+    {
+      "amount": 1000,
+      "fluid": "minecraft:lava",
+      "nbt": {}
+    },
+    {
+      "amount": 1000,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "requiredBonks":2,
+  "result": {
+    "item": "butcher:pestleandmortarblock"
+  }
+}

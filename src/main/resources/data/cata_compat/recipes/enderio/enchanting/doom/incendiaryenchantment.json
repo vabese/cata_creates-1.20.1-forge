@@ -1,0 +1,21 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "doom"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "azurelib"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "azurelib:incendiaryenchantment",
+  "input": {
+    "count": 34,
+    "ingredient": {
+      "item": "doom:argent_energy"
+    }
+  }
+}

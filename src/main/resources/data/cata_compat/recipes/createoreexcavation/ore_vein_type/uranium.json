@@ -1,0 +1,22 @@
+{
+    "type": "createoreexcavation:vein",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "mekanism"
+      }
+    ],
+    "amountMax": 30.0,
+    "amountMin": 10.0,
+    "biomeWhitelist": "minecraft:is_overworld",
+    "icon": {
+      "item": "mekanism:raw_uranium"
+    },
+    "name": "{\"translate\":\"item.mekanism.raw_uranium\"}",
+    "placement": {
+      "salt": 308888583,
+      "separation": 8,
+      "spacing": 128
+    },
+    "priority": 0
+  }

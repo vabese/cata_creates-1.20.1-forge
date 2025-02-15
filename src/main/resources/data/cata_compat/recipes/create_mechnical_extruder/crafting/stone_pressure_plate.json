@@ -1,0 +1,22 @@
+{
+  "type": "create_mechanical_extruder:extruding",
+  "catalyst": {
+    "item": "minecraft:crafting_table"
+  },
+  "ingredients": [
+    {
+      "amount": 1000,
+      "fluid": "minecraft:lava",
+      "nbt": {}
+    },
+    {
+      "amount": 1000,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "requiredBonks":1,
+  "result": {
+    "item": "minecraft:stone_pressure_plate"
+  }
+}

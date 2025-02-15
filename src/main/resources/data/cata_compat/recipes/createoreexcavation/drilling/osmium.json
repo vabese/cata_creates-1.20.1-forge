@@ -1,0 +1,21 @@
+{
+    "type": "createoreexcavation:drilling",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "mekanism"
+      }
+    ],
+    "drill": {
+      "tag": "cata_compat:diamond_or_better_drills"
+    },
+    "output": [
+      {
+        "item": "mekanism:raw_osmium"
+      }
+    ],
+    "priority": 0,
+    "stress": 256,
+    "ticks": 600,
+    "vein_id": "cata_compat:createoreexcavation/ore_vein_type/osmium"
+  }

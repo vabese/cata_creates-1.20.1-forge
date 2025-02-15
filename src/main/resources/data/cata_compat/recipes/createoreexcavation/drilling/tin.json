@@ -1,0 +1,21 @@
+{
+    "type": "createoreexcavation:drilling",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "mekanism"
+      }
+    ],
+    "drill": {
+      "tag": "createoreexcavation:drills"
+    },
+    "output": [
+      {
+        "item": "mekanism:raw_tin"
+      }
+    ],
+    "priority": 0,
+    "stress": 256,
+    "ticks": 600,
+    "vein_id": "cata_compat:createoreexcavation/ore_vein_type/tin"
+  }

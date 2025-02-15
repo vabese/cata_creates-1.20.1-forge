@@ -1,0 +1,17 @@
+{
+  "type": "enderio:enchanting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "kobolds"
+    }
+  ],
+  "cost_multiplier": 1,
+  "enchantment": "kobolds:prospector",
+  "input": {
+    "count": 1,
+    "ingredient": {
+      "item": "kobolds:kobold_template"
+    }
+  }
+}
