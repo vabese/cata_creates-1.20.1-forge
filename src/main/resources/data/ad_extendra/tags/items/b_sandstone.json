@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"ad_astra:venus_sandstone",  "required":false},
+    {"id":"ad_astra:venus_sandstone_bricks",  "required":false},
+    {"id":"ad_astra:venus_sandstone_brick_stairs",  "required":false},
+    {"id":"ad_astra:cracked_venus_sandstone",  "required":false}
+  ]
+}

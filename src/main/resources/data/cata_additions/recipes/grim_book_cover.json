@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "butcher"
+      }
+    ],
+    "ingredients": [
+        {
+            "item": "minecraft:paper"
+        },
+        {
+            "item": "minecraft:paper"
+        },
+        {
+            "item": "minecraft:paper"
+        },
+        {
+            "item": "butcher:pillagerdisquise_helmet"
+        }
+    ],
+    "result": {
+        "item": "minecraft:book",
+        "count": 1
+    }
+}

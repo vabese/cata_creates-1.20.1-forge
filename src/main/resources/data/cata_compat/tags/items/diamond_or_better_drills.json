@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "createoreexcavation:diamond_drill",
-    "createoreexcavation:netherite_drill"
+    {"id":"createoreexcavation:diamond_drill", "required":false},
+    {"id":"createoreexcavation:netherite_drill", "required":false}
   ]
 }

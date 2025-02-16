@@ -1,12 +1,12 @@
 {
   "replace": false,
   "values": [
-    {"id":"vinery:dirt_path_slab",  "required":false},
-    {"id":"framedblocks:framed_cube",  "required":false},
-    {"id":"framedblocks:framed_strairs",  "required":false},
-    {"id":"framedblocks:framed_slab",  "required":false},
-    {"id":"create_connected:copycat_block",  "required":false},
-    {"id":"create_connected:copycat_slab",  "required":false},
-    {"id":"create_connected:copycat_stairs",  "required":false}
+    {"id":"vinery:dirt_path_slab", "required":false},
+    {"id":"framedblocks:framed_cube", "required":false},
+    {"id":"framedblocks:framed_strairs", "required":false},
+    {"id":"framedblocks:framed_slab", "required":false},
+    {"id":"create_connected:copycat_block", "required":false},
+    {"id":"create_connected:copycat_slab", "required":false},
+    {"id":"create_connected:copycat_stairs", "required":false}
   ]
 }

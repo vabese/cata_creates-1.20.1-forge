@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "mofus_better_end_:endsand"
+    {"id":"mofus_better_end_:endsand",  "required":false},
+    {"id":"northstar:moon_sand",  "required":false},
+    {"id":"ad_astra:moon_sand",  "required":false}
   ]
 }

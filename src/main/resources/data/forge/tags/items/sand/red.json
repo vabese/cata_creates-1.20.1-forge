@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "northstar:mars_sand"
+    {"id":"northstar:mars_sand",  "required":false},
+    {"id":"ad_astra:mars_sand",  "required":false}
   ]
 }

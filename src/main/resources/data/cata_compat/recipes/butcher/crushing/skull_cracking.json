@@ -8,7 +8,7 @@
   ],
   "ingredients": [
     {
-      "tag": "cata_compat:head"
+      "tag": "cata_compat:mob_head"
     }
   ],
   "processingTime": 250,

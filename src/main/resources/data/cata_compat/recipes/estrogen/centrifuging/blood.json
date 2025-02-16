@@ -1,0 +1,22 @@
+{
+  "type": "estrogen:centrifuging",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "vamprism"
+      }
+    ],
+  "ingredients": [
+    {
+      "amount": 1,
+      "fluid": "vamprism:impure_blood",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "amount": 1,
+      "fluid": "vamprism:blood"
+    }
+  ]
+}
