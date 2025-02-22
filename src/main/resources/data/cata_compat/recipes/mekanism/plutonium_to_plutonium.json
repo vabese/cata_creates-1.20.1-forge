@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_extendra"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "ad_extendra:plutonium_ingot"
+    },
+    {
+      "item": "ad_extendra:plutonium_ingot"
+    },
+    {
+      "item": "ad_extendra:plutonium_ingot"
+    },
+    {
+      "item": "ad_extendra:plutonium_ingot"
+    },
+    {
+      "item": "ad_extendra:plutonium_ingot"
+    }
+  ],
+  "result": {
+    "item": "mekanism:pellet_plutonium",
+    "count": 1
+  }
+}

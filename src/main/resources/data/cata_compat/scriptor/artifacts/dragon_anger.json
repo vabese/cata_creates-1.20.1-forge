@@ -1,0 +1,24 @@
+{
+  "name": "Draconic Wrath",
+  "spell": {
+    "subject": "self",
+    "spells": [
+      {
+        "action": "strength",
+        "descriptors": [
+          "rainbow",
+          "longer",
+          "rain",
+          "overwhelming",
+          "very_long",
+          "rain",
+          "reagent.cata_compat.elder_dragon_heart"
+        ]
+      },
+      {
+        "action": "rain",
+        "descriptors": []
+      }
+    ]
+  }
+}

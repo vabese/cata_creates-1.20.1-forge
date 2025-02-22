@@ -1,0 +1,21 @@
+{
+  "name": "tome.cata_compat.tradesman",
+  "author": "Ben Frank",
+  "tier": 4,
+  "spell": {
+    "subject": "storm",
+    "spells": [
+      {
+        "action": "time",
+        "descriptors": [
+          "black",
+          "healthy",
+          "solar_power",
+          "clear_skies",
+          "slow",
+          "reagent.cata_compat.netherite_coinstack"
+        ]
+      }
+    ]
+  }
+}

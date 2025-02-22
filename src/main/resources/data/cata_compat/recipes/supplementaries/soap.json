@@ -26,10 +26,6 @@
   },
   "conditions": [
     {
-      "type": "supplementaries:flag",
-      "flag": "soap"
-    },
-    {
       "type": "forge:mod_loaded",
       "modid": "supplementaries"
     },

@@ -1,3 +1,15 @@
 {
-    "enchantment.butcher.butcherenchantment.desc": "Grants compatible weapons and tools the ability to drop a corpse instead of loot as if it were a cleaver, if possible."
+    "enchantment.butcher.butcherenchantment.desc": "Grants compatible weapons and tools the ability to drop a corpse instead of loot as if it were a cleaver, if possible.",
+
+    "descriptor.scriptor.reagent.cata_compat.amethyst_dust": "This spell consumes ground up Amethyst",
+    "descriptor.scriptor.reagent.cata_compat.charged_amethyst": "This spell consumes charged Amethysts",
+    "descriptor.scriptor.reagent.cata_compat.netherite_coinstack": "This spell demands payment in stacks of netherite coins",
+    "descriptor.scriptor.reagent.cata_compat.experience_nugget": "This spell consumes sollidified soul nuggets",
+    "descriptor.scriptor.reagent.cata_compat.elder_dragon_dust": "This spell is powered by the dust of dead dragons",
+    "descriptor.scriptor.reagent.cata_compat.heart_element": "This spell consumes the fragment of a dragon's heart'",
+    "descriptor.scriptor.reagent.cata_compat.elder_dragon_heart": "This spell devours a radiant dragon heart",
+
+    "tome.scriptor.tradesman": "Money is Time"
 }
+
+

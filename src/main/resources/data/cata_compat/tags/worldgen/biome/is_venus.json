@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "northstar:venus_fungal_caverns",
-    "northstar:venus_fungal_forest",
-    "northstar:venusian_plains",
-    "northstar:venusian_wastes",
-    "northstar:venus_lava_caves",
-    "northstar:venus_sulfuric_caverns"
+    {"id":"northstar:venus_fungal_caverns", "required":false},
+    {"id":"northstar:venus_fungal_forest", "required":false},
+    {"id":"northstar:venusian_plains", "required":false},
+    {"id":"northstar:venusian_wastes", "required":false},
+    {"id":"northstar:venus_lava_caves", "required":false},
+    {"id":"northstar:venus_sulfuric_caverns", "required":false}
   ]
 }

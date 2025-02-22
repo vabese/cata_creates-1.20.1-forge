@@ -1,5 +1,11 @@
 {
   "type": "create:splashing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mofus_better_end_"
+    }
+  ],
   "ingredients": [
     {
       "item": "mofus_better_end_:endsand"
