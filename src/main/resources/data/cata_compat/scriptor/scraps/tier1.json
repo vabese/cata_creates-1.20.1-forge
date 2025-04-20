@@ -1,6 +1,5 @@
 {
   "tier": 1,
-  "replace": false,
   "keys": [
     "descriptor:reagent.cata_compat.amethyst_dust",
     "descriptor:reagent.cata_compat.experience_nugget"

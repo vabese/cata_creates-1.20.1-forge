@@ -1,0 +1,19 @@
+{
+  "type": "create_dd:sanding",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "estrogen"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "estrogen:balls"
+    }
+  ],
+  "results": [
+    {
+      "item": "estrogen:testosterone_chunk"
+    }
+  ]
+}

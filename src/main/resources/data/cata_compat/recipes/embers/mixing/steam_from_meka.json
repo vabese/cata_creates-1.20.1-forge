@@ -1,0 +1,34 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "embers"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "embers:dawnstone_block"
+    },
+    {
+      "amount": 250,
+      "fluid": "mekanism:steam",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "item": "embers:dawnstone_block"
+    },
+    {
+      "amount": 250,
+      "fluid": "embers:steam",
+      "nbt": {}
+    }
+  ]
+}

@@ -1,6 +1,5 @@
 {
   "tier": 3,
-  "replace": false,
   "keys": [
     "descriptor:reagent.cata_compat.heart_element",
     "descriptor:reagent.cata_compat.charged_amethyst"

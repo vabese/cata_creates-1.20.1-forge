@@ -1,0 +1,14 @@
+{
+  "icon": "catascollection.png",
+  "name": "Cata's assorted'",
+  "authors": [
+    "vabese"
+  ],
+  "desc": "An assorted collection of various buildings, composed of a blank \"do it yourself\" and additional buildings meant to be used with other styles",
+  "mods": [
+  "structurize",
+  "minecolonies"
+  ],
+  "version": "1",
+  "pack-format": "1"
+}
